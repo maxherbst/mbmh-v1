@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/mbmh_v1/production/",
   "dependencies": {
     "@14islands/r3f-scroll-rig": "^8.13.1",
     "@react-three/drei": "^9.105.4",

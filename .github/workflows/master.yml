@@ -17,4 +17,4 @@ jobs:
         server: s10.zenbox.pl
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /webgl_tuts/tympanus/2/
+        server-dir: /mbmh_v1

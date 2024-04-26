@@ -1,7 +1,7 @@
 on: 
   push:
     branches:
-      - master
+      - staging
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -17,4 +17,5 @@ jobs:
         server: s10.zenbox.pl
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /webgl_tuts/tympanus/xxx/
+        server-dir: /mbmh_v1/staging/
+

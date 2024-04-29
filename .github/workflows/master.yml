@@ -18,5 +18,3 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: /mbmh_v1/production/
-        protocol: sftp
-        port: 22

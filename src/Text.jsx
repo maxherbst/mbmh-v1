@@ -4,20 +4,20 @@ import { MeshDistortMaterial } from '@react-three/drei'
 import { WebGLText } from '@14islands/r3f-scroll-rig/powerups'
 
 export const Headline = ({ children, ...props }) => (
-  <Text font="fonts/Poppins-Medium.woff" {...props}>
+  <Text font="fonts/EuclidCircularA-Regular-WebM.woff" {...props}>
     {children}
   </Text>
 )
 
 export const Subtitle = ({ children, ...props }) => (
-  <Text font="fonts/PlayfairDisplay-Italic.woff" {...props}>
+  <Text font="fonts/EuclidCircularA-Regular-WebM.woff" {...props}>
     {children}
   </Text>
 )
 
 export const BodyCopy = Text
 
-export function Text({ children, wobble, className, font = 'fonts/Poppins-Regular.woff', as: Tag = 'span', ...props }) {
+export function Text({ children, wobble, className, font = 'fonts/EuclidCircularA-Regular-WebM.woff', as: Tag = 'span', ...props }) {
   const el = useRef()
   const { hasSmoothScrollbar } = useScrollRig()
   return (
